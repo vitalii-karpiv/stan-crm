@@ -4,8 +4,8 @@ import "../styles/navbar.css"
 
 function Navbar() {
     return (
-        <nav className="navbar">
-            <ul className="navbar-nav">
+        <nav className="navbar navbar-expand-lg">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                     <Link to="/" className="nav-link">Home</Link>
                 </li>
